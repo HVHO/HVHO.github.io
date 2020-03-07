@@ -1,41 +1,27 @@
-# Site settings
-title:          HVHO's Dev Blog
-description:    "Every Clouds has a silverlining⛅️"
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Donghyun Kim
 baseurl:        ""
-url:            "https://hvho.github.io/"
-
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
-
-# Author
-author:
-  name:         Donghyun Kim
-  url:          https://hvho.github.io/
-  email:        hvho1119@gmail.com
-
-# Build settings
-markdown:       kramdown
-include:
-  - _pages
+url:            "http://hvho.github.io"
 
 # Assets
 sass:
   sass_dir:     _sass
-  style:        compressed
+  style:        :compressed
 
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+# Build settings
+markdown:       kramdown
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+# About
+author:
+  name:         Donghyun Kim
+  url:          http://hvho.github.io/
+  email:        hvho1119@gmail.com
+  github:       hvho
 
-# Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
-
-# Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/hvho/HVHO.github.io
