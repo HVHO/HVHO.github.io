@@ -1,28 +1,41 @@
-# Permalinks
-permalink:      /:year-:month-:day/:title
-
-# Setup
-title:          Donghyun Kim
+# Site settings
+title:          HVHO's devblog
+description:    "Terry's portpolio & devblog"
 baseurl:        ""
-url:            "http://hvho.github.io"
+url:            "https://hvho.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Donghyun Kim 
+  url:          https://hvho.github.io
+  email:        hvho1119@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
 
 # Assets
 sass:
   sass_dir:     _sass
-  style:        :compressed
+  style:        compressed
 
-# Build settings
-markdown:       kramdown
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
-# About
-author:
-  name:         Donghyun Kim
-  url:          http://hvho.github.io/
-  email:        hvho1119@gmail.com
-  github:       hvho
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
 
-# Custom vars
-version:        3.4.1
-github:
-  repo:         https://github.com/hvho/HVHO.github.io
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
