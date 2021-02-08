@@ -1,0 +1,4 @@
+ User-agent: *
+ Allow: /
+
+ Sitemap: https://hvho.github.io/sitemap.xml
