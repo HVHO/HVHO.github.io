@@ -2,7 +2,7 @@
   &-header {
     &-title {
       color: $default-shade;
-      font-family: $sans-serif;
+      font-family: $noto-sans-kr;
       font-size: 4rem;
       margin: 1rem 0;
       text-align: center;
@@ -18,7 +18,7 @@
 
   &-clouds {
     text-align: center;
-    font-family: $sans-serif;
+    font-family: $noto-sans-kr;
 
     a {
       display: inline-block;
@@ -44,7 +44,7 @@
     &-label {
       display: inline-block;
       margin: 2rem 0 0.5rem;
-      font-family: $sans-serif;
+      font-family: $noto-sans-kr;
       color: $default-color;
     }
   }
