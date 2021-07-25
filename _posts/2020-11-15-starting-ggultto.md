@@ -3,7 +3,7 @@ layout: post
 title: "[ 글또 ] 글또 5기를 시작하며"
 description: 글또 5기를 시작하는 다짐글
 comments: false
-tags: life
+tags: Life
 ---
 
 > 글또를 시작하는 다짐글입니다.

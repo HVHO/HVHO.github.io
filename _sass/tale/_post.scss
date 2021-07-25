@@ -1,5 +1,6 @@
 .post {
   padding: 3rem 0;
+ 
 
   &-info {
     color: $default-tint;
@@ -15,7 +16,7 @@
   &-title {
     color: $default-shade;
     font-family: $noto-sans-kr;
-    font-size: 4rem;
+    font-size: 2.7rem;
     margin: 1rem 0;
     text-align: center;
   }
@@ -37,7 +38,7 @@
   }
 
   img {
-    margin: 0 auto 0.5rem;
+    margin: 3rem auto 0.5rem auto;
   }
 
   img + em {
