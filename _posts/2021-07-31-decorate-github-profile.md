@@ -13,6 +13,8 @@ tags: github
 
 ---
 
+* TOC
+
 # 프로필용 Repository 만들기
 깃허브 프로필을 사용하기 위하여 먼저 새로운 Repository 를 만들어야 한다.  
 이 때 Repository 의 이름을 꼭 **자신의 username** 으로 설정해야 한다.

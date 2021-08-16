@@ -42,8 +42,7 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 disqus:     hvhos-devlog
 
 # kramdown setting
-# kramdown:
-#   hard_wrap: true
-
+kramdown:
+  parse_block_html: true
 # google fonts
 # google_fonts: "Nanum+Gothic:400,700"

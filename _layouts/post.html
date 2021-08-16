@@ -19,6 +19,9 @@ layout: default
 
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
+  <div class="toc">
+	{% include toc.html html=content sanitize=true h_min=1 h_max=2 %}
+  </div>
 
   {{ content }}
 </div>
