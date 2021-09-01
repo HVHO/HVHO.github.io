@@ -3,7 +3,7 @@ layout: post
 title: "2021 TOSS 코딩테스트 후기 ( Server )"
 description: 2021 TOSS NEXT DEVELOPER CHALLENGE 코딩테스트 후기입니다.
 comments: true
-tags: Terraform
+tags: Recruit
 ---
 
 > 2021 년 TOSS NEXT DEVELOPER CHALLENGE 코딩테스트 후기입니다.

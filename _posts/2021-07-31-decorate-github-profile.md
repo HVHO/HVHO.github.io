@@ -3,7 +3,7 @@ layout: post
 title : 한눈에 들어오는 깃허브 만들기
 description: Readme.md 를 이용하여 깃허브 프로필을 예쁘게 꾸며보자
 comments: true
-tags: github
+tags: Github
 ---
 
 
